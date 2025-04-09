@@ -90,9 +90,11 @@ public class FileUtil {
     } // Try
     catch (FileNotFoundException ex) {
       //
+      System.out.println("Archivo no encontrado: " + ex.getMessage());
     }
     catch (IOException ex) {
       //
+      System.out.println("Pase por acua.");
     }
     return (v);
   }

@@ -90,9 +90,12 @@ public class FileUtil {
     } // Try
     catch (FileNotFoundException ex) {
       //
+      System.out.println("Archivo no encontrado: " + ex.getMessage());
+      System.out.println("Directorio de trabajo: " + System.getProperty("user.dir"));
     }
     catch (IOException ex) {
       //
+      System.out.println("Pase por aqui.");
     }
     return (v);
   }
