@@ -156,7 +156,7 @@ public class AddressManager extends JFrame {
           }
         }
                            );
-    frame.setSize(350, 300);
+    frame.setSize(450, 400);
     frame.setVisible(true);
   }
   public String getCustomerName() {
